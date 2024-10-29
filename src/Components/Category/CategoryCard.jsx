@@ -14,8 +14,9 @@ const CategoryCard = ({ title,name,items, linkText }) => {
             </div>
           ))}
         </div>
+         <a href="#" className="category-click">{linkText}</a>
       </Link>
-      <a href="#" className="category-click">{linkText}</a>
+     
     </div>
   );
 };
